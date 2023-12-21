@@ -113,7 +113,7 @@ const gltfLoader = new THREE.GLTFLoader();
 let mesh;
 
 gltfLoader.load(
-  "./models/mini mel bl.glb",
+  "mini mel bl.glb",
   function (gltf) {
     mesh = gltf.scene;
     mesh.scale.x = 0.5;
@@ -130,7 +130,7 @@ gltfLoader.load(
 );
 
 gltfLoader.load(
-    "./models/mini me bl.glb",
+    "mini me bl.glb",
     function (gltf) {
       mesh = gltf.scene;
       mesh.scale.x = 0.5;
